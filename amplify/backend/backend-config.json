@@ -1,1 +1,10 @@
-{}
+{
+    "notifications": {
+        "vuejsamplifyexampleT0qPU": {
+            "service": "Pinpoint",
+            "channels": [
+                "FCM"
+            ]
+        }
+    }
+}

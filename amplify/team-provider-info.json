@@ -9,6 +9,15 @@
             "UnauthRoleName": "amplify-vuejsamplifyexample-dev-102357-unauthRole",
             "StackName": "amplify-vuejsamplifyexample-dev-102357",
             "StackId": "arn:aws:cloudformation:eu-west-1:737748091452:stack/amplify-vuejsamplifyexample-dev-102357/8779d870-09ed-11ea-8d6e-021deeb5f1c0"
+        },
+        "categories": {
+            "notifications": {
+                "Pinpoint": {
+                    "Name": "vuejsamplifyexampleT0qPU-dev",
+                    "Id": "bcdb033757964aa18361a374b7309e39",
+                    "Region": "eu-west-1"
+                }
+            }
         }
     }
 }

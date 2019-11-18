@@ -1,14 +1,36 @@
 {
-    "providers": {
-        "awscloudformation": {
-            "AuthRoleName": "amplify-vuejsamplifyexample-dev-102357-authRole",
-            "UnauthRoleArn": "arn:aws:iam::737748091452:role/amplify-vuejsamplifyexample-dev-102357-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::737748091452:role/amplify-vuejsamplifyexample-dev-102357-authRole",
-            "Region": "eu-west-1",
-            "DeploymentBucketName": "amplify-vuejsamplifyexample-dev-102357-deployment",
-            "UnauthRoleName": "amplify-vuejsamplifyexample-dev-102357-unauthRole",
-            "StackName": "amplify-vuejsamplifyexample-dev-102357",
-            "StackId": "arn:aws:cloudformation:eu-west-1:737748091452:stack/amplify-vuejsamplifyexample-dev-102357/8779d870-09ed-11ea-8d6e-021deeb5f1c0"
-        }
-    }
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "amplify-vuejsamplifyexample-dev-102357-authRole",
+			"UnauthRoleArn": "arn:aws:iam::737748091452:role/amplify-vuejsamplifyexample-dev-102357-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::737748091452:role/amplify-vuejsamplifyexample-dev-102357-authRole",
+			"Region": "eu-west-1",
+			"DeploymentBucketName": "amplify-vuejsamplifyexample-dev-102357-deployment",
+			"UnauthRoleName": "amplify-vuejsamplifyexample-dev-102357-unauthRole",
+			"StackName": "amplify-vuejsamplifyexample-dev-102357",
+			"StackId": "arn:aws:cloudformation:eu-west-1:737748091452:stack/amplify-vuejsamplifyexample-dev-102357/8779d870-09ed-11ea-8d6e-021deeb5f1c0"
+		}
+	},
+	"notifications": {
+		"vuejsamplifyexampleT0qPU": {
+			"service": "Pinpoint",
+			"output": {
+				"Name": "vuejsamplifyexampleT0qPU-dev",
+				"Id": "bcdb033757964aa18361a374b7309e39",
+				"Region": "eu-west-1",
+				"FCM": {
+					"ApplicationId": "bcdb033757964aa18361a374b7309e39",
+					"CreationDate": "2019-11-18T14:21:47.534Z",
+					"Enabled": true,
+					"HasCredential": true,
+					"Id": "gcm",
+					"IsArchived": false,
+					"LastModifiedDate": "2019-11-18T14:21:47.534Z",
+					"Platform": "GCM",
+					"Version": 1
+				}
+			},
+			"lastPushTimeStamp": "2019-11-18T14:20:56.680Z"
+		}
+	}
 }
